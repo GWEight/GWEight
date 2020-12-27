@@ -213,11 +213,15 @@ body{
     justify-content: space-around;
     align-items: center;
   }
+  main::-webkit-scrollbar {
+    display: none;
+  }
   .aside-box{
     width: 90%;
     height: 80%;
     display: flex;
     overflow: hidden;
+    font-family: sans-serif;
     align-items: center;
   }
   .content-view{
@@ -501,7 +505,7 @@ background: red;
 #projectsBoxes{
   width: var(--Width);
   height: 77.5%;
-  margin-right: 5%;
+  margin-right: 11%;
   align-items: center;
   display: flex;
 }
@@ -770,11 +774,48 @@ background: red;
   flex-wrap: wrap;
 }
 .firstBigBlock{
+  margin-bottom: 5%;
   width: var(--mainWidth);
   height: var(--mainHeight);
-  border: 3px solid red;
+  background: url(../assets/news/2.jpg);
+}
+.blockDate{
+  transition: 0.3s;
+  position: relative;
+  left: 87%;
+  font-weight: bold;
+  background: white;
+  width: 10%;
+  height: 14%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.blockDate p {
+  margin: 0;
+}
+.blockDateMini{
+  font-size: 60%;
+}
+.blockText{
+  position: relative;
+  top: 50%;
+  color: white;
+  background: #00000099;
+  height: 31%;
+  padding: 0 5%;
+  padding-top: 5%;
+  overflow: hidden;
+}
+.blockText h4{
+  margin: 0;
+}
+.blockText p{
+  font-size: 70%;
 }
 .mostWhidthBlocksContainer{
+  margin-bottom: 5%;
   width: var(--mainWidth);
   height: var(--mainHeight);
   display: flex;
@@ -790,27 +831,54 @@ background: red;
     align-items: center;
 }
 .secondSmallBlock{
+  margin-bottom: 5%;
   width: 45%;
     height: 80%;
-    border: 3px solid purple;
+    background: url(../assets/news/3.jpg);
 }
 .thirdSmallBlock{
+  margin-bottom: 5%;
   width: 45%;
     height: 80%;
-    border: 3px solid purple;
+    background: url(../assets/news/6.jpg);
 }
 .fourthMidleBlock{
   width: 100%;
     height: 45%;
-    border: 3px solid blue;
-    display: flex;
-    justify-content: space-between;
+    background: url(../assets/news/7.jpg);
+}
+.fourthMidleBlockblockText{
+  height: 25%;
 }
 
 .firstBigBlock, .secondSmallBlock, .thirdSmallBlock, .fourthMidleBlock{
   transition: 0.4s;
+  background-size: cover;
+  overflow: hidden;
+  z-index: 1;
+
 }
 
 .firstBigBlock:hover, .secondSmallBlock:hover, .thirdSmallBlock:hover, .fourthMidleBlock:hover{
   transform: scale(1.1);
+  z-index: 2;
+}
+
+
+
+.firstBigBlock:hover .blockDate, .secondSmallBlock:hover .blockDate, .thirdSmallBlock:hover .blockDate, .fourthMidleBlock:hover .blockDate{
+  height: 0;
+  color: rgba(0, 0, 0, 0);
+}
+.firstBigBlock:hover .blockText, .secondSmallBlock:hover .blockText, .thirdSmallBlock:hover .blockText, .fourthMidleBlock:hover .blockText{
+  animation: ease-in-out blockTextAnim 0.3s forwards;
+}
+@keyframes blockTextAnim{
+  0%{
+    top: 60%;
+  }
+  100%{
+    height: 100%;
+    top: 0;
+  }
 }

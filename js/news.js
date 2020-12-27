@@ -33,7 +33,7 @@ let timer = setInterval((tick), 7000);
 setTimeout(() => {
 	let firstNews = document.getElementById('FirstNews');
 	firstNews.style.top = '0%'
-}, 500);
+}, 700);
 
 function tick (){
 	a++;
@@ -43,7 +43,7 @@ function tick (){
 	setTimeout(() => {
 		let firstNews = document.getElementById('FirstNews');
 		firstNews.style.top = '0%'
-	}, 100);
+	}, 700);
 }
 
 
