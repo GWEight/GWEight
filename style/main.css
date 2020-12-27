@@ -815,6 +815,7 @@ background: red;
 }
 .blockText p{
   font-size: 70%;
+  width: 80%;
 }
 .mostWhidthBlocksContainer{
   margin-bottom: 5%;

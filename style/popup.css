@@ -1,6 +1,9 @@
 *{
   font-size: 30px;
 }
+.mainNews{
+  height: 105%;
+}
 .nav-logo{
   padding-left: 50px;
 }
@@ -68,5 +71,5 @@ aside{
 }
 
 .blockText h4, .blockDate h4, .blockText p, .blockDate p{
-  font-size: 9px;
+  font-size: 13px;
 }
