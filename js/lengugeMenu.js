@@ -13,7 +13,6 @@ let sectionBar = document.getElementById('section-bar-id');
 
 document.styleSheets[1].disabled=true;
 if(screenHeightLeng>screenWidthLeng){
-	
 document.styleSheets[1].disabled=false;
 }
 

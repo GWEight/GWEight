@@ -53,10 +53,18 @@ aside{
   justify-content: center;
 }
 .footMenu{
-  width: 28%;
+  width: 5%;
+  flex-direction: column;
+  bottom: 120px;
+  margin-left: 4%; 
+  left: 0;
 }
 .footMenu a{
   transform: scale(1.3);
+  margin: 20px 0;
+}
+#projectsBoxes{
+  margin-right: 25%;
 }
 
 .blockText h4, .blockDate h4, .blockText p, .blockDate p{

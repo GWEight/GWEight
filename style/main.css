@@ -505,7 +505,7 @@ background: red;
 #projectsBoxes{
   width: var(--Width);
   height: 77.5%;
-  margin-right: 11%;
+  margin-right: 15%;
   align-items: center;
   display: flex;
 }
@@ -551,7 +551,7 @@ background: red;
 
 /*Social*/
 .footMenu{
-  position: absolute;
+  position: fixed;
   right: 0;
   display: flex;
   justify-content: space-around;
@@ -800,10 +800,12 @@ background: red;
 }
 .blockText{
   position: relative;
-  top: 50%;
+  top: 52%;
   color: white;
   background: #00000099;
-  height: 31%;
+  height: 33%;
+  width: 100%;
+  left: -3px;
   padding: 0 5%;
   padding-top: 5%;
   overflow: hidden;
