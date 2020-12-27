@@ -854,12 +854,18 @@ background: red;
   height: 25%;
 }
 
+#Tap{
+  background: url(../assets/Games/Tap.png) white;
+  background-size: cover;
+  overflow: hidden;
+}
+
 .firstBigBlock, .secondSmallBlock, .thirdSmallBlock, .fourthMidleBlock{
   transition: 0.4s;
   background-size: cover;
   overflow: hidden;
   z-index: 1;
-
+  border-radius: 10%;
 }
 
 .firstBigBlock:hover, .secondSmallBlock:hover, .thirdSmallBlock:hover, .fourthMidleBlock:hover{
@@ -881,7 +887,7 @@ background: red;
     top: 60%;
   }
   100%{
-    height: 100%;
-    top: 0;
+    height: 102%;
+    top: -1%;
   }
 }
