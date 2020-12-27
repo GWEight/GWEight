@@ -31,7 +31,7 @@ if(screenHeight>screenWidth){
 blockText.forEach(element => {
     let rememberText = element.innerHTML;
     element.addEventListener('mouseover',()=>{
-        element.textContent = `Read More`
+        element.textContent = navigator.userAgent;
     })
     element.addEventListener('mouseout',()=>{
         element.innerHTML = rememberText
