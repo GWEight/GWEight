@@ -115,7 +115,7 @@ return element;
 
 
 
-
+alert(navigator.userAgent);
 /*
 setTimeout(() => {
 	setTimeout(() => {
