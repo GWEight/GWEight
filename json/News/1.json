@@ -1,0 +1,10 @@
+{
+    "items":[
+        {
+            "id": "FirstNews",
+            "name": "FirstNews",
+            "p": "",
+            "img" : "assets/logo.png"
+        }
+    ]
+}

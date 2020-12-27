@@ -1,0 +1,53 @@
+{
+    "items":[
+        {
+            "id": "newsOne",
+            "content": "data/json/newsOne.json",
+            "img": "imgOne",
+            "check": "",
+            "value": 1
+        },
+        {
+            "id": "newsTwo",
+            "content": "data/json/newsTwo.json",
+            "img": "imgTwo",
+            "check": "",
+            "value": 2
+        },
+        {
+            "id": "newsThree",
+            "content": "data/json/newsThree.json",
+            "img": "imgThree",
+            "check": "",
+            "value": 3
+        },
+        {
+            "id": "newsFour",
+            "content": "data/json/newsFour.json",
+            "img": "imgFour",
+            "check": "",
+            "value": 4
+        },
+        {
+            "id": "newsFive",
+            "content": "data/json/newsFive.json",
+            "img": "imgFive",
+            "check": "",
+            "value": 5
+        },
+        {
+            "id": "newsSix",
+            "content": "data/json/newsSix.json",
+            "img": "imgSix",
+            "check": "",
+            "value": 6
+        },
+        {
+            "id": "newsSeven",
+            "content": "data/json/newsSeven.json",
+            "img": "imgSeven",
+            "check": "",
+            "value": 7
+        }
+    ]
+}
