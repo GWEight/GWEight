@@ -505,7 +505,6 @@ background: red;
 #projectsBoxes{
   width: var(--Width);
   height: 77.5%;
-  margin-right: 15%;
   align-items: center;
   display: flex;
 }
@@ -773,10 +772,12 @@ background: red;
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.firstBigBlock, .mostWhidthBlocksContainer{
+  width: 510px;
+  height: 510px;
+}
 .firstBigBlock{
   margin-bottom: 5%;
-  width: var(--mainWidth);
-  height: var(--mainHeight);
   background: url(../assets/news/2.jpg) white center;
 }
 .blockDate{
@@ -796,7 +797,7 @@ background: red;
   margin: 0;
 }
 .blockDateMini{
-  font-size: 60%;
+  font-size: 10px;
 }
 .blockText{
   position: relative;
@@ -814,13 +815,11 @@ background: red;
   margin: 0;
 }
 .blockText p{
-  font-size: 70%;
+  font-size: 11px;
   width: 80%;
 }
 .mostWhidthBlocksContainer{
   margin-bottom: 5%;
-  width: var(--mainWidth);
-  height: var(--mainHeight);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -865,7 +864,7 @@ background: red;
   background-size: cover;
   overflow: hidden;
   z-index: 1;
-  border-radius: 10%;
+  border-radius: 1%;
 }
 
 .firstBigBlock:hover, .secondSmallBlock:hover, .thirdSmallBlock:hover, .fourthMidleBlock:hover{

@@ -4,12 +4,24 @@
 
 .mainNews{
   height: 110%;
+  justify-content: unset;
+  flex-wrap: unset;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  
 }
 .nav-logo{
   padding-left: 50px;
 }
 article {
-  height: 30%;
+  height: 35%;
+  width: 100%;
+}
+#article{
+  height: 10%;
+}
+aside{
   width: 100%;
 }
 .right-bar{
@@ -60,7 +72,6 @@ aside{
   width: 5%;
   flex-direction: column;
   bottom: 120px;
-  margin-left: 4%; 
   left: 0;
 }
 .footMenu a{
@@ -68,27 +79,40 @@ aside{
   margin: 20px 0;
 }
 #projectsBoxes{
-  margin-right: 25%;
+  margin-right: 0%;
+  width: 96%;
 }
 
-.blockText h4, .blockDate h4, .blockText p, .blockDate p{
-  font-size: 13px;
+.blockText , .blockText h4, .blockText p, .blockDate p{
+  font-size: 11px;
 }
+.blockText p{
+  width: 100%;
+  font-size: 10px;
+}
+.blockDateMini p{
+  font-size: 9px;
+}
+
+
 .firstBigBlock, .mostWhidthBlocksContainer{
   width: 450px;
   height: 450px;
 }
 
 
-@media (max-height: 540px){ 
+@media (max-height: 560px){ 
   #main{
-    height: 250%;
+    height: 200%;
   }
   section-text{
     top: 23%;
   }
   article{
-    height: 35%;
+    height: 30%;
+  }
+  #article{
+    height: 10%;
   }
   .aside-box{
     height: 95%;

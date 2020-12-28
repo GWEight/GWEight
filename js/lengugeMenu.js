@@ -95,13 +95,16 @@ function openMenu(button) {
 }
 
 if(window.location.href.indexOf("news") != -1){ 
+  document.getElementById("article").style.width = '22.5%';
+  if(document.styleSheets[1].disabled==true){
+    document.getElementById("aside").style.width = '77.5%';
+  }
   projectsBoxes.style.setProperty('--Width', screenWidthLeng/100*80 +'px');
   projectsBoxes.style.setProperty('--Height', screenHeightLeng/100*65 +'px');
   if(screenWidthLeng<screenHeightLeng){
   projectsBoxes.style.flexDirection = 'row';
   projectsBoxes.style.width = '80%';
   projectsBoxes.style.height = '80%';
-  sectionBar.style.display = 'flex';
 }
   
 }
