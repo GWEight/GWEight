@@ -95,7 +95,6 @@ function openMenu(button) {
 }
 
 if(window.location.href.indexOf("news") != -1){ 
-  document.getElementById("article").style.width = '22.5%';
   if(document.styleSheets[1].disabled==true){
     document.getElementById("aside").style.width = '77.5%';
   }
