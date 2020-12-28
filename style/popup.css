@@ -81,7 +81,7 @@ aside{
 
 
 @media (max-height: 540px){ 
-  main{
+  #main{
     height: 250%;
   }
   section-text{
@@ -93,10 +93,6 @@ aside{
   .aside-box{
     height: 95%;
   }
-  .footer{
-    position: absolute;
-    bottom: -90%;
-  }
   .footMenu {
     position: absolute;
     bottom: 100px;
@@ -104,5 +100,9 @@ aside{
   .footMenu a{
     transform: scale(0.9);
     margin: 10px 0;
+  }
+  
+  .bodyLengUl{
+    top: 10%;
   }
  }
