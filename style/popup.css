@@ -81,7 +81,7 @@ aside{
 
 
 @media (max-height: 540px){ 
-  .mainNews{
+  main{
     height: 250%;
   }
   section-text{
