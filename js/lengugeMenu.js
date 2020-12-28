@@ -50,19 +50,12 @@ function openPopup() {
     bodyLengUl[0].style.width = '100%';
   }, 1);
   setTimeout(() => {
-    if(screenWidthLeng>screenHeightLeng){
-      bodyLengUl[0].style.height = '10%';
-      lengLi.forEach(element => {
-       element.style.width = '10%';
-       element.style.height = '100%';
-      });
-    }else{
-      bodyLengUl[0].style.height = '25%';
-      lengLi.forEach(element => {
-        element.style.width = '30%';
-        element.style.height = '45%';
-       });
-    }
+    
+    bodyLengUl[0].style.height = '20%';
+    lengLi.forEach(element => {
+      element.style.width = '30%';
+      element.style.height = '50%';
+     });
     setTimeout(() => {
       bodyLengUlMain.style.display =  'flex';
     }, 100);
@@ -101,11 +94,14 @@ function openMenu(button) {
   } 
 }
 
-projectsBoxes.style.setProperty('--Width', screenWidthLeng/100*80 +'px');
-projectsBoxes.style.setProperty('--Height', screenHeightLeng/100*65 +'px');
-if(screenWidthLeng<screenHeightLeng){
-projectsBoxes.style.flexDirection = 'row';
-projectsBoxes.style.width = '80%';
-projectsBoxes.style.height = '80%';
-sectionBar.style.display = 'flex';
+if(window.location.href.indexOf("news") != -1){ 
+  projectsBoxes.style.setProperty('--Width', screenWidthLeng/100*80 +'px');
+  projectsBoxes.style.setProperty('--Height', screenHeightLeng/100*65 +'px');
+  if(screenWidthLeng<screenHeightLeng){
+  projectsBoxes.style.flexDirection = 'row';
+  projectsBoxes.style.width = '80%';
+  projectsBoxes.style.height = '80%';
+  sectionBar.style.display = 'flex';
+}
+  
 }
