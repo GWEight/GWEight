@@ -16,6 +16,7 @@ if(screenHeightLeng>screenWidthLeng){
 document.styleSheets[1].disabled=false;
 }
 
+
 var gear = document.getElementById('gear');
 lang.addEventListener('click', openPopup);
 gear.addEventListener('click', openPopup);
