@@ -12,10 +12,9 @@ let projectsBoxes = document.getElementById('projectsBoxes');
 let sectionBar = document.getElementById('section-bar-id');
 
 document.styleSheets[1].disabled=true;
-if(screenHeightLeng>screenWidthLeng){
+if(screenHeightLeng>screenWidthLeng || 950>screenWidthLeng){
 document.styleSheets[1].disabled=false;
 }
-alert("Ширина - " + screenWidthLeng + " "+ " Высота - " + screenHeightLeng)
 
 
 var gear = document.getElementById('gear');
