@@ -1,6 +1,7 @@
 *{
   font-size: 30px;
 }
+
 .mainNews{
   height: 110%;
 }
@@ -73,3 +74,27 @@ aside{
 .blockText h4, .blockDate h4, .blockText p, .blockDate p{
   font-size: 13px;
 }
+.firstBigBlock, .mostWhidthBlocksContainer{
+  width: 450px;
+  height: 450px;
+}
+
+
+@media (max-height: 450px){ 
+  .mainNews{
+    height: 250%;
+  }
+  section-text{
+    top: 23%;
+  }
+  article{
+    height: 35%;
+  }
+  .aside-box{
+    height: 95%;
+  }
+  .footMenu {
+    position: absolute;
+    bottom: 100px;
+  }
+ }
