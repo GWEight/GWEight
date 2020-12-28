@@ -80,7 +80,7 @@ aside{
 }
 
 
-@media (max-height: 450px){ 
+@media (max-height: 540px){ 
   .mainNews{
     height: 250%;
   }
@@ -93,8 +93,16 @@ aside{
   .aside-box{
     height: 95%;
   }
+  .footer{
+    position: absolute;
+    bottom: -90%;
+  }
   .footMenu {
     position: absolute;
     bottom: 100px;
+  }
+  .footMenu a{
+    transform: scale(0.9);
+    margin: 10px 0;
   }
  }
