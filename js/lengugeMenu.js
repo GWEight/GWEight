@@ -11,15 +11,12 @@ let lengLi = [].slice.call(document.getElementsByClassName('lengLi'));
 let projectsBoxes = document.getElementById('projectsBoxes');
 let sectionBar = document.getElementById('section-bar-id');
 
+document.styleSheets[1].disabled=true;
+if(screenHeightLeng>screenWidthLeng){
+document.styleSheets[1].disabled=false;
+}
+alert("Ширина - " + screenWidthLeng + " "+ " Высота - " + screenHeightLeng)
 
-setInterval(() => {
-  const screenWidthLeng = window.screen.width
-  const screenHeightLeng = window.screen.height
-  document.styleSheets[1].disabled=true;
-  if(screenHeightLeng>screenWidthLeng){
-  document.styleSheets[1].disabled=false;
-  }
-}, 10);
 
 var gear = document.getElementById('gear');
 lang.addEventListener('click', openPopup);
