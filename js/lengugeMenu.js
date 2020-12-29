@@ -100,7 +100,7 @@ if(window.location.href.indexOf("index") == -1){
   }
   if(screenWidthLeng<screenHeightLeng){
   projectsBoxes.style.flexDirection = 'row';
-  projectsBoxes.style.width = '80%';
+  projectsBoxes.style.width = '100%';
   projectsBoxes.style.height = '80%';
 }
   
