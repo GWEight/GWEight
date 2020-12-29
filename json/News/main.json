@@ -3,51 +3,86 @@
         {
             "id": "newsOne",
             "content": "data/json/newsOne.json",
-            "img": "imgOne",
             "check": "",
             "value": 1
         },
         {
             "id": "newsTwo",
             "content": "data/json/newsTwo.json",
-            "img": "imgTwo",
             "check": "",
-            "value": 2
+            "value": 2,
+            
+            "themeWeigt": "firstBigBlock",
+            "img": "2.jpg",
+            "NewsPageDateNubmer": "12",
+            "NewsPageDateMon": "Dec",
+            "NewsPageName": "Aventodor",
+            "NewsPageShortCurt": "Good for me, and bad for you))0)"
         },
         {
             "id": "newsThree",
             "content": "data/json/newsThree.json",
-            "img": "imgThree",
             "check": "",
-            "value": 3
+            "value": 3,
+            
+            "themeWeigt": "secondSmallBlock",
+            "img": "2.jpg",
+            "NewsPageDateNubmer": "12",
+            "NewsPageDateMon": "Dec",
+            "NewsPageName": "Aventodor",
+            "NewsPageShortCurt": "Good for me, and bad for you))0)"
         },
         {
             "id": "newsFour",
             "content": "data/json/newsFour.json",
-            "img": "imgFour",
             "check": "",
-            "value": 4
+            "value": 4,
+            
+            "themeWeigt": "thirdSmallBlock",
+            "img": "2.jpg",
+            "NewsPageDateNubmer": "12",
+            "NewsPageDateMon": "Dec",
+            "NewsPageName": "Aventodor",
+            "NewsPageShortCurt": "Good for me, and bad for you))0)"
         },
         {
             "id": "newsFive",
             "content": "data/json/newsFive.json",
-            "img": "imgFive",
             "check": "",
-            "value": 5
+            "value": 5,
+            
+            "themeWeigt": "fourthMidleBlock",
+            "img": "2.jpg",
+            "NewsPageDateNubmer": "12",
+            "NewsPageDateMon": "Dec",
+            "NewsPageName": "Aventodor",
+            "NewsPageShortCurt": "Good for me, and bad for you))0)"
         },
         {
             "id": "newsSix",
             "content": "data/json/newsSix.json",
-            "img": "imgSix",
             "check": "",
-            "value": 6
+            "value": 6,
+            
+            "themeWeigt": "firstBigBlock",
+            "img": "2.jpg",
+            "NewsPageDateNubmer": "12",
+            "NewsPageDateMon": "Dec",
+            "NewsPageName": "Aventodor",
+            "NewsPageShortCurt": "Good for me, and bad for you))0)"
         },
         {
             "id": "newsSeven",
             "content": "data/json/newsSeven.json",
-            "img": "imgSeven",
             "check": "",
-            "value": 7
+            "value": 7,
+            
+            "themeWeigt": "firstBigBlock",
+            "img": "2.jpg",
+            "NewsPageDateNubmer": "12",
+            "NewsPageDateMon": "Dec",
+            "NewsPageName": "Aventodor",
+            "NewsPageShortCurt": "Good for me, and bad for you))0)"
         }
     ]
 }

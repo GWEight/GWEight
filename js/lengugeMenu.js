@@ -51,7 +51,7 @@ function openPopup() {
   }, 1);
   setTimeout(() => {
     
-    bodyLengUl[0].style.height = '20%';
+    bodyLengUl[0].style.height = '30%';
     lengLi.forEach(element => {
       element.style.width = '30%';
       element.style.height = '50%';
@@ -94,12 +94,10 @@ function openMenu(button) {
   } 
 }
 
-if(window.location.href.indexOf("news") != -1){ 
+if(window.location.href.indexOf("index") == -1){ 
   if(document.styleSheets[1].disabled==true){
     document.getElementById("aside").style.width = '77.5%';
   }
-  projectsBoxes.style.setProperty('--Width', screenWidthLeng/100*80 +'px');
-  projectsBoxes.style.setProperty('--Height', screenHeightLeng/100*65 +'px');
   if(screenWidthLeng<screenHeightLeng){
   projectsBoxes.style.flexDirection = 'row';
   projectsBoxes.style.width = '80%';

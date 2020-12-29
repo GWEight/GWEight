@@ -82,7 +82,9 @@ aside{
   margin-right: 0%;
   width: 96%;
 }
-
+.firstBigBlock, .secondSmallBlock, .thirdSmallBlock, .fourthMidleBlock{
+  border-radius: 10%;
+}
 .blockText , .blockText h4, .blockText p, .blockDate p{
   font-size: 11px;
 }

@@ -510,7 +510,7 @@ background: red;
 
 
 #projectsBoxes{
-  width: var(--Width);
+  width: 90%;
   height: 77.5%;
   align-items: center;
   display: flex;
@@ -525,7 +525,7 @@ background: red;
     height: 0%;
     width: 0%;
     right: 0;
-    background: #000000d9;
+    background: #000000ee;
     top: 20%;
     z-index: 2;
 }
@@ -837,7 +837,6 @@ background: red;
     height: 50%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .secondSmallBlock{
   margin-bottom: 5%;
