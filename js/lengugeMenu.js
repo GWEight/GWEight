@@ -53,7 +53,7 @@ function openPopup() {
     
     bodyLengUl[0].style.height = '30%';
     lengLi.forEach(element => {
-      element.style.width = '30%';
+      element.style.width = '40%';
       element.style.height = '50%';
      });
     setTimeout(() => {
@@ -75,6 +75,7 @@ function closePopup(){
 
   setTimeout(() => {
     bodyLengUl[0].style.width = '0%';
+    btn.classList.toggle("active");
     
   }, 700);
 }
@@ -105,3 +106,7 @@ if(window.location.href.indexOf("index") == -1){
 }
   
 }
+
+let language = localStorage.getItem("language");
+if(language == null){ language = 'En';};
+localStorage.setItem("language", language);

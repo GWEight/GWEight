@@ -514,6 +514,9 @@ background: red;
   height: 77.5%;
   align-items: center;
   display: flex;
+  position: relative;
+  left: 0;
+  transition: 0.7s;
 }
 
 /*MainLendg*/
@@ -779,13 +782,14 @@ background: red;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.firstBigBlock, .mostWhidthBlocksContainer{
+.bigBlock, .mostWhidthBlocksContainer{
   width: 510px;
   height: 510px;
 }
-.firstBigBlock{
+.bigBlock{
+  background: url(../assets/news/5.jpg) white center;
   margin-bottom: 5%;
-  background: url(../assets/news/2.jpg) white center;
+  background-size: cover;
 }
 .blockDate{
   transition: 0.3s;
@@ -840,52 +844,60 @@ background: red;
 }
 .secondSmallBlock{
   margin-bottom: 5%;
-  width: 45%;
-    height: 80%;
-    background: url(../assets/news/3.jpg) white center;
+  width: 46%;
+    height: 94%;
 }
 .thirdSmallBlock{
   margin-bottom: 5%;
-  width: 45%;
-    height: 80%;
-    background: url(../assets/news/6.jpg) white center;
+  width: 46%;
+    height: 94%;
 }
 .fourthMidleBlock{
   width: 100%;
-    height: 45%;
-    background: url(../assets/news/7.jpg) white center;
+    height: 50%;
 }
 .fourthMidleBlockblockText{
   height: 25%;
 }
 
 #Tap{
-  background: url(../assets/Games/Tap.jpg) white center;
+  background: url(../assets/Games/Tap1.jpg) white center;
   background-size: cover;
   overflow: hidden;
 }
 
-.firstBigBlock, .secondSmallBlock, .thirdSmallBlock, .fourthMidleBlock{
+.bigBlock, .secondSmallBlock, .thirdSmallBlock, .fourthMidleBlock{
   transition: 0.4s;
-  background-size: cover;
   overflow: hidden;
   z-index: 1;
   border-radius: 1%;
 }
 
-.firstBigBlock:hover, .secondSmallBlock:hover, .thirdSmallBlock:hover, .fourthMidleBlock:hover{
-  transform: scale(1.1);
+.bigBlock:hover, .secondSmallBlock:hover, .thirdSmallBlock:hover, .fourthMidleBlock:hover{
+  transform: scale(1.2);
   z-index: 2;
 }
 
 
 
-.firstBigBlock:hover .blockDate, .secondSmallBlock:hover .blockDate, .thirdSmallBlock:hover .blockDate, .fourthMidleBlock:hover .blockDate{
+.bigBlock:hover .blockDate, .secondSmallBlock:hover .blockDate, .thirdSmallBlock:hover .blockDate, .fourthMidleBlock:hover .blockDate{
   height: 0;
   color: rgba(0, 0, 0, 0);
 }
-.firstBigBlock:hover .blockText, .secondSmallBlock:hover .blockText, .thirdSmallBlock:hover .blockText, .fourthMidleBlock:hover .blockText{
+.bigBlock:hover .blockText, .secondSmallBlock:hover .blockText, .thirdSmallBlock:hover .blockText, .fourthMidleBlock:hover .blockText{
   animation: ease-in-out blockTextAnim 0.3s forwards;
+}
+#tapText{
+  display: flex;
+  flex-direction: column;
+}
+#tapText img{
+  border-radius: 0;
+  max-width: 300px;
+  max-height: 300px;
+}
+#tapText p{
+  max-width: 80%;
 }
 @keyframes blockTextAnim{
   0%{
@@ -894,5 +906,12 @@ background: red;
   100%{
     height: 102%;
     top: -1%;
+  }
+}
+
+
+@media (max-width: 1500px){ 
+  #projectsBoxes {
+    width: 100%;
   }
 }
