@@ -878,7 +878,14 @@ background: red;
   z-index: 2;
 }
 
+.heightPoster{
+  min-height: 500px;
+}
 
+.motherDivGenerator{
+  display: flex; 
+  justify-content: space-around;
+}
 
 .bigBlock:hover .blockDate, .secondSmallBlock:hover .blockDate, .thirdSmallBlock:hover .blockDate, .fourthMidleBlock:hover .blockDate{
   height: 0;
