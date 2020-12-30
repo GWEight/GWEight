@@ -100,7 +100,7 @@ body{
     color: white;
   }
   .right-bar p:hover{
-    color: red;
+    color: tomato;
     cursor: pointer;
 
   }
@@ -469,7 +469,7 @@ span + span {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-background:red;
+background:tomato;
   box-shadow: 2px 8px 40px 0 rgba(0,0,0,0.3);
   cursor: pointer;
 }
@@ -494,7 +494,7 @@ background:red;
   background: white;
 }
 #gear.active .tooth{
-background: red;
+background: tomato;
 }
 .tooth:nth-child(2){
   transform: rotate(45deg);
@@ -904,10 +904,14 @@ background: red;
 #tapText img{
   border-radius: 0;
   max-width: 300px;
-  max-height: 300px;
+  max-height: 150px;
+  align-self: center;
 }
 #tapText p{
   max-width: 80%;
+}
+.redUrl{
+  color: tomato;
 }
 @keyframes blockTextAnim{
   0%{

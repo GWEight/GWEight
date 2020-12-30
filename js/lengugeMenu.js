@@ -28,7 +28,7 @@ gear.addEventListener('mouseout', colorReSet);
 
 function colorSet(event) {
   gear.classList.add('active'); 
-  lang.style.color="red";
+  lang.style.color="tomato";
 }
 function colorReSet(event) {
   gear.classList.remove('active'); 
