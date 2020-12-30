@@ -887,6 +887,9 @@ background: red;
   justify-content: space-around;
 }
 
+.someTextwidthClas{
+  width: 40%;
+}
 .bigBlock:hover .blockDate, .secondSmallBlock:hover .blockDate, .thirdSmallBlock:hover .blockDate, .fourthMidleBlock:hover .blockDate{
   height: 0;
   color: rgba(0, 0, 0, 0);
