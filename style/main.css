@@ -2,6 +2,12 @@
     font-family: "Azonix";
     src: url(../fonts/Azonix.ttf);
   }
+  .monospaceFont{
+    font-family: 'sans-serif';
+  }
+  .azonixFont{
+    font-family: 'Azonix';
+  }
 body{
     width: 100%;
     max-height: 100%;
@@ -9,7 +15,6 @@ body{
     background: url('../assets/prs8kY9.gif') no-repeat white fixed center ; 
     -webkit-background-size: cover; 
     background-size: cover;
-    font-family: 'Azonix';
   }
 
   main{
@@ -222,6 +227,7 @@ body{
   }
   #aside{
     height: 5%;
+    justify-content: center;
   }
   .aside-box{
     width: 90%;

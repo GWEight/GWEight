@@ -80,6 +80,74 @@ function closePopup(){
   }, 700);
 }
 
+let gpostBlank = [].slice.call(document.getElementsByClassName('gweight-post-blank'));
+let hrefsBar = [].slice.call(document.getElementsByClassName('hrefsBar'));
+
+lengLi[0].addEventListener('click',()=>{
+  localStorage.language = 'En';
+  document.location.reload();
+})
+lengLi[1].addEventListener('click',()=>{
+  localStorage.language = 'Es';
+  document.location.reload();
+})
+lengLi[2].addEventListener('click',()=>{
+  localStorage.language = 'Ru';
+  document.location.reload();
+})
+lengLi[3].addEventListener('click',()=>{
+  localStorage.language = 'Ua';
+  document.location.reload();
+})
+if(localStorage.language == 'En'){
+  document.body.classList.toggle('azonixFont');
+}
+
+if(localStorage.language == 'Ru'){
+  document.body.classList.toggle('monospaceFont');
+  if(window.location.href.indexOf("index") != -1){ 
+    gpostBlank[0].style.fontSize= '30px';
+    gpostBlank[0].textContent = `Новости это хорошо, честные новсти ещё лучше, а новости об играх - бесценны!`;
+  }
+  lang.textContent = `Языки`;
+  lang.style.fontSize= '35px';
+  document.querySelector(".right-bar").style.width = "20%";
+  hrefsBar.forEach(e => e.style.fontSize= '36px');
+  hrefsBar[0].textContent = `Гланая`;
+  hrefsBar[1].textContent = `Новости`;
+  hrefsBar[2].textContent = `Магазин`;
+  hrefsBar[3].textContent = `Проекты`;
+  hrefsBar[4].textContent = `О'нас`;
+}
+
+if(localStorage.language == 'Es'){
+  document.body.classList.toggle('azonixFont');
+  //gpostBlank[0].style.fontSize= '30px';
+  //gpostBlank[0].textContent = `Новости это хорошо, честные новсти ещё лучше, а новости об играх - бесценны!`;
+  lang.textContent = `Lengua`;
+  hrefsBar[0].textContent = `Casa`;
+  hrefsBar[1].textContent = `Noticias`;
+  hrefsBar[2].textContent = `Compras`;
+  hrefsBar[3].textContent = `Proyectos`;
+  hrefsBar[4].textContent = `Sobre`;
+}
+
+if(localStorage.language == 'Ua'){
+  document.body.classList.toggle('monospaceFont');
+  lang.style.fontSize= '35px';
+  document.querySelector(".right-bar").style.width = "20%";
+  hrefsBar.forEach(e => e.style.fontSize= '36px');
+  //gpostBlank[0].style.fontSize= '30px';
+  //gpostBlank[0].textContent = `Новости это хорошо, честные новсти ещё лучше, а новости об играх - бесценны!`;
+  lang.textContent = `Мова`;
+  lang.style.fontSize= '42px';
+  hrefsBar.forEach(e => e.style.fontSize= '40px');
+  hrefsBar[0].textContent = `Головна`;
+  hrefsBar[1].textContent = `Новини`;
+  hrefsBar[2].textContent = `Магазин`;
+  hrefsBar[3].textContent = `Проекти`;
+  hrefsBar[4].textContent = `Про'нас`;
+}
  /*phoneMenu*/
 
 btn.addEventListener('click', openMenu); 
