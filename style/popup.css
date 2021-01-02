@@ -1,7 +1,7 @@
+
 *{
   font-size: 30px;
 }
-
 .mainNews{
   height: 110%;
   justify-content: unset;
@@ -9,7 +9,9 @@
   flex-direction: column;
   position: absolute;
   width: 100%;
-  
+}
+.right-bar{
+  width: 32%;
 }
 .nav-logo{
   padding-left: 50px;
@@ -21,12 +23,7 @@ article {
 #article{
   height: 10%;
 }
-aside{
-  width: 100%;
-}
-.right-bar{
-  width: 32%;
-}
+
 section-bar li{
   position: absolute;
     display: flex;
@@ -107,8 +104,8 @@ aside{
 
 
 
-
 @media (max-height: 560px){ 
+
   #main{
     height: 200%;
   }

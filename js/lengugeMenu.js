@@ -12,6 +12,7 @@ let projectsBoxes = document.getElementById('projectsBoxes');
 let sectionBar = document.getElementById('section-bar-id');
 
 document.styleSheets[1].disabled=true;
+document.styleSheets[2].disabled=true;
 if(screenHeightLeng>screenWidthLeng || 950>screenWidthLeng){
 document.styleSheets[1].disabled=false;
 }
@@ -118,6 +119,10 @@ if(localStorage.language == 'Ru'){
   hrefsBar[2].textContent = `Магазин`;
   hrefsBar[3].textContent = `Проекты`;
   hrefsBar[4].textContent = `О'нас`;
+  if(window.location.href.indexOf("projects") != -1){ 
+    document.getElementsByClassName('blockDateMonth')[0].textContent = 'Ноя';
+    document.getElementsByClassName('blockTextText')[0].textContent = 'Это увлекательная игра на меткость! Сыграй прямо сейчас, расслабь свой мозг и хорошенько повеселись';
+  }
 }
 
 if(localStorage.language == 'Es'){
@@ -130,6 +135,9 @@ if(localStorage.language == 'Es'){
   hrefsBar[2].textContent = `Compras`;
   hrefsBar[3].textContent = `Proyectos`;
   hrefsBar[4].textContent = `Sobre`;
+  if(window.location.href.indexOf("projects") != -1){ 
+    document.getElementsByClassName('blockTextText')[0].textContent = 'Es un divertido juego de.¡Juega ahora, relaja tu cerebro y diviértete mucho';
+  }
 }
 
 if(localStorage.language == 'Ua'){
@@ -147,7 +155,13 @@ if(localStorage.language == 'Ua'){
   hrefsBar[2].textContent = `Магазин`;
   hrefsBar[3].textContent = `Проекти`;
   hrefsBar[4].textContent = `Про'нас`;
+  if(window.location.href.indexOf("projects") != -1){ 
+    document.getElementsByClassName('blockDateMonth')[0].textContent = 'Лист';
+    document.getElementsByClassName('blockTextText')[0].textContent = 'Це захоплююча гра на влучність! Зіграй прямо зараз, розслаб свій мозок і гарненько розважся';
+  }
 }
+
+
  /*phoneMenu*/
 
 btn.addEventListener('click', openMenu); 

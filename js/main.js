@@ -50,19 +50,17 @@ let tapLengEn = [
       "firstText":`Tap is an addicting marksmanship game! Play it now, relax your brain and have a lot of fun passing the company!
       You need to hit the maximum number of balls in order to achieve the highest result and go to the next level.<a class="redUrl" style=" padding: 50px;" href="ProjData/Tap.apk" download><b>Download</b></a>`,
       "secondText": `Features:
-      1. Free game: many skins and bonuses
-      2. Simple ball control: tap the screen and fly the ball with one hand
-      3. Catchy graphics: neon blocks painted in different colors
-      4. Offline mode: there are absolutely no ads in offline mode
-  `,
+      <p>1. Free game: many skins and bonuses</p>
+      <p>2. Simple ball control: tap the screen and fly the ball with one hand</p>
+      <p>3. Catchy graphics: neon blocks painted in different colors</p>
+      <p>4. Offline mode: there are absolutely no ads in offline mode</p>`,
       "thirdText": `
       How to play:
-          1. Choose between casual, endless and level play
-          2. Match red balls that will give you an extra life
-          3. Find the best moment to hit
-          4. Try to get better results and get more achievements
-          <a href="projects.html" style ="padding:50px;" class="redUrl"><b>Watch silent tutorial</b></a>
-      `,
+      <p>1. Choose between casual, endless and level play</p>
+      <p>2. Match red balls that will give you an extra life</p>
+      <p>3. Find the best moment to hit</p>
+      <p>4. Try to get better results and get more achievements</p>
+      <a href="projects.html" style ="padding:50px;" class="redUrl"><b>Watch silent tutorial</b></a>`,
       "fourthText": `In this fun addicting game you can unlock different balls and themes of different levels (legendary ones have their own abilities)! So if you have a lot of free time and you are bored, start the game.
       Just download the game and compete with your friends! Find out which one of you is better!
       And if you encounter any problems, please write to us at <i><a href="mailto:gameweighteight@gmail.com" style="display: unset; width: fit-content;"> gameweighteight@gmail.com </a></i> and we will help you.`,
@@ -79,24 +77,22 @@ let tapLengRu = [
       Тебе нужно попасть в максимальное количество шаров, чтобы отличиться наивысшим результатом и пройти на следующий уровень.<a class="redUrl" 
       style=" padding: 50px;" href="ProjData/Tap.apk" download><b>Скачать</b></a>`,
       "secondText": `Особенности:
-      1. Бесплатная игра: много скинов и бонусов
-      2. Простоe управление мячом: нажми на экран и запусти шар в полет одним пальцем
-      3. Броская графика: неоновые блоки, раскрашенные в разные цвета
-      4. Офлайн-режим: в режиме офлайн совершенно нету рекламы
-  `,
+      <p>1. Бесплатная игра: много скинов и бонусов</p>
+      <p>2. Простоe управление мячом: нажми на экран и запусти шар в полет одним пальцем</p>
+      <p>3. Броская графика: неоновые блоки, раскрашенные в разные цвета</p>
+      <p>4. Офлайн-режим: в режиме офлайн совершенно нету рекламы</p>`,
       "thirdText": `Как играть:
-      1. Выбери между обычной, бесконечной и уровневой игрой 
-      2. Подбирай красные шары, которые дадут тебе дополнительную жизнь
-      3. Найди лучший момент для попадания
-      4. Старайся добиться лучших результатов и получить больше достижений
-      <a href="projects.html" style ="padding:50px;" class="redUrl"><b>Смотреть визуальный туториал</b></a>
-      `,
+      <p>1. Выбери между обычной, бесконечной и уровневой игрой</p>
+      <p>2. Подбирай красные шары, которые дадут тебе дополнительную жизнь</p>
+      <p>3. Найди лучший момент для попадания</p>
+      <p>4. Старайся добиться лучших результатов и получить больше достижений</p>
+      <a href="projects.html" style ="padding:50px;" class="redUrl"><b>Смотреть визуальный туториал</b></a>`,
       "fourthText": `В этой забавной увлекательной игре ты можешь разблокировать различные шары и темы разных уровней(легендарные имеют собственные способности)! Так что если у тебя куча свободного времени и ты заскучал – запускай игру.
-      Просто загрузи игру и посоревнуйся с друзьями! Узнай, кто из вас лушче!
+      Просто загрузи игру и посоревнуйся с друзьями! Узнай, кто из вас лучше!
       А если ты столкнулся с какими-либо проблемами, пожалуйста, напиши нам на <i><a href="mailto:gameweighteight@gmail.com" style="display: unset; width: fit-content;"> gameweighteight@gmail.com </a></i> и мы тебе поможем.`,
       
       "fivethText": `Это панель в игре. Здесь есть два состояния кнопки быстрой загрузки (красный - выключен / зеленый - включен), если она включена,
-      вы будете загружать непосредственно выбранный игровой режим, минуя главную страницу, что бы выключить его нажмит на зеленую кнопку`,
+      вы будете загружать непосредственно выбранный игровой режим, минуя главную страницу, что бы выключить его нажмите на зеленую кнопку`,
       
       "sixthText": `И пауза, где вы можете перейти в домашний каталог игры, включить или выключить музыку / звук попадания либо сразу же перезапустить игру.<a class="redUrl" style=" padding: 50px;" href="ProjData/Tap.apk" download><b>Скачать</b></a>`,
       "back":"Назад"
@@ -109,18 +105,16 @@ let tapLengUa = [
      Тобі потрібно потрапити в максимальну кількість куль, щоб відзначитися найвищим результатом і пройти на наступний рівень.<a class="redUrl" 
       style=" padding: 50px;" href="ProjData/Tap.apk" download><b>Завантажити</b></a>`,
       "secondText": `Особливості:
-      1. Безкоштовна гра: багато скінів і бонусів
-      2. Просте управління м'ячем: натисни на екран і запусти кулю в політ однією рукою
-      3. Помітна графіка: неонові блоки, розфарбовані в різні кольори
-      4. Офлайн-режим: в режимі офлайн абсолютно немає реклами
-  `,
+      <p>1. Безкоштовна гра: багато скінів і бонусів</p>
+      <p>2. Просте управління м'ячем: натисни на екран і запусти кулю в політ однією рукою</p>
+      <p>3. Помітна графіка: неонові блоки, розфарбовані в різні кольори</p>
+      <p>4. Офлайн-режим: в режимі офлайн абсолютно немає реклами</p>`,
       "thirdText": `Як грати:
-      1. Вибери між звичайною, нескінченної і рівневої грою
-      2. Підбирай червоні кулі, які дадуть тобі додаткове життя
-      3. Знайди кращий момент для потрапляння
-      4. Намагайся домогтися кращих результатів і отримати більше досягнень
-      <a href="projects.html" style ="padding:50px;" class="redUrl"><b>Дивитися візуальний туторіал</b></a>
-      `,
+      <p>1. Вибери між звичайною, нескінченної і рівневої грою</p>
+      <p>2. Підбирай червоні кулі, які дадуть тобі додаткове життя</p>
+      <p>3. Знайди кращий момент для потрапляння</p>
+      <p>4. Намагайся домогтися кращих результатів і отримати більше досягнень</p>
+      <a href="projects.html" style ="padding:50px;" class="redUrl"><b>Дивитися візуальний туторіал</b></a>`,
       "fourthText": `У цій забавній, захоплюючій грі ти можеш розблокувати різні кулі і теми різних рівнів (легендарні мають власні здібності)! Так якщо у тебе купа вільного часу і ти занудьгував - запускай гру.
       Просто завантаж гру і позмагаються з друзями! Дізнайся, хто з вас краще!
       А якщо ти зіткнувся з будь-якими проблемами, будь ласка, напиши нам на <i><a href="mailto:gameweighteight@gmail.com" style="display: unset; width: fit-content;"> gameweighteight@gmail.com </a></i> і ми тобі допоможемо.`,
@@ -139,15 +133,15 @@ let tapLengEs = [
       Debes golpear el número máximo de bolas para lograr el resultado más alto y pasar al siguiente nivel.<a class="redUrl" 
       style=" padding: 50px;" href="ProjData/Tap.apk" download><b>Descargar</b></a>`,
       "secondText": `caracteristicas:
-      1. Juego gratuito: muchas máscaras y bonificaciones
-      2. Control simple del balón: toca la pantalla y lanza el balón al vuelo con una mano
-      3. Gráficos llamativos: bloques de neón pintados en diferentes colores.
-      4. Modo sin conexión: no hay absolutamente ningún anuncio en el modo sin conexión.`,
+      <p>1. Juego gratuito: muchas máscaras y bonificaciones</p>
+      <p>2. Control simple del balón: toca la pantalla y lanza el balón al vuelo con una mano</p>
+      <p>3. Gráficos llamativos: bloques de neón pintados en diferentes colores.</p>
+      <p>4. Modo sin conexión: no hay absolutamente ningún anuncio en el modo sin conexión.</p> `,
       "thirdText": `Cómo jugar:
-      1. Elige entre juego casual, interminable y nivelado
-      2. Combina bolas rojas que te darán una vida extra
-      3. Encuentra el mejor momento para golpear
-      4. Intente obtener mejores resultados y más logros
+      <p>1. Elige entre juego casual, interminable y nivelado</p>
+      <p>2. Combina bolas rojas que te darán una vida extra</p>
+      <p>3. Encuentra el mejor momento para golpear</p>
+      <p>4. Intente obtener mejores resultados y más logros</p>
       <a href="projects.html" style ="padding:50px;" class="redUrl"><b>Mira el tutorial visual</b></a>`,
       "fourthText": `En este divertido y adictivo juego puedes desbloquear diferentes bolas y temas de diferentes niveles (¡los legendarios tienen sus propias habilidades)! Entonces, si tienes mucho tiempo libre y estás aburrido, comienza el juego.
       Solo descarga el juego y compite con tus amigos! ¡Descubre cuál de ustedes es mejor!
@@ -166,7 +160,9 @@ if(window.location.href.indexOf("projects") != -1){
     aside.style.height = 'fit-content';
     aside.style.position = 'absolute';
     aside.style.top = '30%';
-    document.querySelectorAll('section-bar li a').forEach(e => e.style.display = "none");
+    if(document.styleSheets[1].disabled != false){
+        document.querySelectorAll('section-bar li a').forEach(e => e.style.display = "none");
+    }
     setTimeout(() => {
             projectsBoxes.style.height = 'fit-content';
             
@@ -193,8 +189,8 @@ if(window.location.href.indexOf("projects") != -1){
                 <p style="width: 310px; align-self: center;  margin: 0; text-align: center;">${data[i].firstText}</p>
             </div>
             <div style="padding: 50px;" class="motherDivGenerator">             
-            <p class="someTextwidthClas">${data[i].secondText}</p>
-            <p class="someTextwidthClas">${data[i].thirdText}</p>
+            <div class="someTextwidthClas">${data[i].secondText}</div>
+            <div class="someTextwidthClas">${data[i].thirdText}</div>
             </div>
 
             
@@ -237,7 +233,7 @@ if(window.location.href.indexOf("projects") != -1){
         projectsBoxes.style.background = '#efefef21';
         projectsBoxes.style.left = '0';
         projectsBoxes.style.fontSize = `30px`
-        document.styleSheets[1].disabled=false;
+        document.styleSheets[2].disabled=false;
         document.getElementById("aside").style.width = 'unset';
         }, 1000);
     })

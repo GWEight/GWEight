@@ -101,8 +101,7 @@ element.className = 'content-view';
 if(storeItem.name == 'FirstNews'){
 	element.innerHTML = `<div class="img">
 <img class="${storeItem.name}" src="${storeItem.img}" alt="">
-</div>
-<p id="${storeItem.name}text">${storeItem.p}</p>`;
+</div>`;
 }else{
 
 element.innerHTML = `<div class="img">

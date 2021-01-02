@@ -1,0 +1,89 @@
+{
+    "items":[
+        {
+            "id": "0",
+            "content": "json/store/1/",
+            "value": 1,
+
+            "themeWeigt": "firstBigBlock",
+            "img": "2.jpg",
+            "NewsPageDateNubmer": "12",
+            "NewsPageDateMon": "Dec",
+            "NewsPageName": "Star Laser Projector",
+            "NewsPageShortCurt": "This is a unique projector that instantly turns any wall, house or ceiling into a bright constellation of a thousand lights!",
+            
+            "NewsPageDateMonRu": "Дек",
+            "NewsPageNameRu": "Звездный лазерный проектор",
+            "NewsPageShortCurtRu": "Это уникальный проектор, который мгновенно превращает любую стену, дом или потолок в яркое созвездие тысячи огоньков!",
+
+            "NewsPageDateMonUa": "Груд",
+            "NewsPageNameUa": "Зоряний лазерний проектор",
+            "NewsPageShortCurtUa": "Це унікальний проектор, який миттєво перетворює будь-яку стіну, будинок або стелю в яскраве сузір'я тисячі вогників!",
+            
+            "NewsPageDateMonEs": "dic",
+            "NewsPageNameEs": "Proyector láser estrella",
+            "NewsPageShortCurtEs": "Un proyector de valor incalculable, como un mittvo, que volveré a crear, ya sea una pared, ¡o me quedaré detrás de miles de personas!"
+        
+        },
+        {
+            "id": "1",
+            "content": "json/store/2.json",
+            "value": 2,
+            
+            "themeWeigt": "firstBigBlock",
+            "img": "2.jpg",
+            "NewsPageDateNubmer": "22",
+            "NewsPageDateMon": "Dec",
+            "NewsPageName": "Aventodor",
+            "NewsPageShortCurt": "Good for me, and bad for you))0)"
+        },
+        {
+            "id": "2",
+            "content": "json/store/3.json",
+            "value": 2,
+            
+            "themeWeigt": "firstBigBlock",
+            "img": "2.jpg",
+            "NewsPageDateNubmer": "12",
+            "NewsPageDateMon": "Dec",
+            "NewsPageName": "Aventodor",
+            "NewsPageShortCurt": "Good for me, and bad for you))0)"
+        },
+        {
+            "id": "3",
+            "content": "json/store/4.json",
+            "value": 3,
+            
+            "themeWeigt": "secondSmallBlock",
+            "img": "2.jpg",
+            "NewsPageDateNubmer": "323",
+            "NewsPageDateMon": "Dec",
+            "NewsPageName": "Aventodor",
+            "NewsPageShortCurt": "Good for me, and bad for you))0)"
+        },
+        {
+            "id": "4",
+            "content": "json/store/5.json",
+            "value": 4,
+            
+            "themeWeigt": "thirdSmallBlock",
+            "img": "2.jpg",
+            "NewsPageDateNubmer": "12",
+            "NewsPageDateMon": "Dec",
+            "NewsPageName": "Aventodor",
+            "NewsPageShortCurt": "Good for me, and bad for you))0)"
+        },
+        {
+            "id": "5",
+            "content": "json/store/6.json",
+            "value": 5,
+            
+            "themeWeigt": "fourthMidleBlock",
+            "img": "2.jpg",
+            "NewsPageDateNubmer": "12",
+            "NewsPageDateMon": "Dec",
+            "NewsPageName": "Aventodor",
+            "NewsPageShortCurt": "Good for me, and bad for you))0)"
+        }
+    ]
+}
