@@ -88,9 +88,9 @@ function countMerchNews(clicked_title){
 
             
             <div class="motherDivGenerator">
-                <img src="${data.img2}" style="min-width: 410px; min-height: 410px" class="heightPoster" alt="">
-                <img src="${data.img3}" style="min-width: 410px; min-height: 410px" class="heightPoster" alt="">
-                <img src="${data.img4}" style="min-width: 410px; min-height: 410px" class="heightPoster" alt="">
+                <img src="${data.img2}" style="min-width: 310px; min-height: 310px" class="heightPoster" alt="">
+                <img src="${data.img3}" style="min-width: 310px; min-height: 310px" class="heightPoster" alt="">
+                <img src="${data.img4}" style="min-width: 310px; min-height: 310px" class="heightPoster" alt="">
             </div>
 
             <div style=" width: 90%; padding: 50px;" class="motherDivGenerator">
@@ -98,14 +98,14 @@ function countMerchNews(clicked_title){
             </div>
 
             <div style = " padding:50px;" class="motherDivGenerator">
-                <img src="${data.img5}" style="min-width: 410px; min-height: 410px"  class="heightPoster" alt="">
-                <img src="${data.img6}" style="min-width: 410px; min-height: 410px"  class="heightPoster" alt="">
-                <img src="${data.img7}" style="min-width: 410px; min-height: 410px"  class="heightPoster" alt="">
+                <img src="${data.img5}" style="min-width: 310px; min-height: 310px"  class="heightPoster" alt="">
+                <img src="${data.img6}" style="min-width: 310px; min-height: 310px"  class="heightPoster" alt="">
+                <img src="${data.img7}" style="min-width: 310px; min-height: 310px"  class="heightPoster" alt="">
             </div>
 
 
             <div class="motherDivGenerator" > 
-                <img src="${data.img1}" alt=""style="min-width: 410px; min-height: 410px">  
+                <img src="${data.img1}" alt=""style="min-width: 310px; min-height: 310px">  
                 <p style ="padding:50px;" class="someTextwidthClas">${data.text5}</p>
             </div>
            
